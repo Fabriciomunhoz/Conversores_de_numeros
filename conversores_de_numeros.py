@@ -41,7 +41,6 @@ def real_arabic_for_romano(num):
     for simbolo in reversed(intParaRomano):
         dictValue = intParaRomano.get(simbolo)
 
-        #Enquanto o número solicitado não for igual a 0, vai continuar adicionando o simbolo e reduzindo o numero 
         # referente ao simbolo adicionado.
         while num >= dictValue:
             romano += simbolo
