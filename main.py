@@ -17,7 +17,7 @@ while fechar == False:
         real_number = input()
         try:
             if (real_number.isdigit() is False):
-                raise ValueError("isso não é um int cara!");
+                raise ValueError("isso não é um int!");
             print(f"Número romano em real: {real_arabic_for_romano(int(real_number))}")
         except ValueError as e:
             print(e)
